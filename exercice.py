@@ -16,6 +16,8 @@ def main():
 	c1.weapon = Weapon("BFG", 100, 69)
 	c2.weapon = Weapon("Deku Stick", 120, 1)
 
+	#deal_damage(c1, c2) # test de la fonction
+
 	turns = run_battle(c1, c2)
 	print(f"The battle ended in {turns} turns.")
 
